@@ -1,43 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+    h1 {text-align: center; font-size: 40px;}
+    p {
+        padding: 1%;
+        font-size:calc(8px + 2vw);
+        text-align: center;
+    }
+    h4 {
+        padding: 1%;
+        font-size:calc(6px + 1vw);
+        text-align: center;
+    }
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    * {
+    box-sizing: border-box;
+    }
+    
+</style>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="public/TempletonResumeAugust2023.pdf">Resume</a></li>
+    <li><a href="documents.html">Documents</a></li>
+</ul> 
+<body>
+<br></br>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
-</html>
+<div class="row">
+    <div class="column2">
+        
+        <img src="public\logo-final.png" style="padding: 1%; width: 80%; margin: auto; display: block;">
+        <hr style="width:90%; margin: auto;">
+        <h3>Current projects I am working on</h3>
+        <hr style="width:90%; margin: auto;">
+        <h4><a href="7.senior.html">Senior Project</a></p2>
+        <h4><a href="5.cardinal-eats.html">Cardinal Eats Club President</a></p2>
+
+    </div>
+    <div class="column4">
+        <p>
+            <p>I am a senior in Cyber Security Engineering at Iowa State University. I am interested in Engineering cyber systems and Forensic Investigations. I am currently working as a Security Intern at Principal Financial Group and designing a website for the Iowa State Cardinal Eats Club.</p>
+            <p><a href="https://templeton.pro/TempletonResumeAugust2023.pdf">Here is a link to my resume</a></p>
+            <p>Thanks for taking a look!</p>
+        </p>
+    </div>
+    
+</div>
+
+</body>
+<footer>
+    <ul style="margin: 0 auto; display: table; text-align: left; font-size:calc(10px + .7vw);">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="public/TempletonResumeAugust2023.pdf">Resume</a></li>
+        <li><a href="documents.html">Documents</a></li>
+    </ul> 
+    <a style="font-size:calc(12px + .5vw)" href="mailto:jstemps02@gmail.com">jstemps02@gmail.com</a>
+    <br><br>
+    <ul style="margin: 0 auto; display: table; text-align: center; font-size:calc(10px + .7vw);">
+        <li>
+            <a style="padding: 15px;" target="_blank" href="https://www.github.com/jstemps">
+                <img src="public\giit.png" alt="GitHub" width="40px">
+            </a>
+        </li>
+        <li>
+            <a style="padding: 15px;" target="_blank" href="https://www.linkedin.com/in/justin-templeton/">
+                <img src="public\in.png" alt="LinkedIn" width="40px">
+            </a>
+        </li>
+    </ul>
+    
+    
+</footer>
+</body>
+</html> 

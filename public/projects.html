@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+<style>
+
+p {
+    padding: 1%;
+    font-size:calc(6px + 1.5vw);
+}
+
+* {
+    box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+div.gallery {
+  padding: 1%;
+  border: 1px solid #504f4f;
+  height: 100%;
+  width: 80%;
+}
+
+div.gallery:hover {
+  border: 1px solid #b3b3b3;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding:.1vw;
+  font-size: calc(8px + 2vw);;
+  text-align: center;
+  color: azure;
+}
+</style>
+</head>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="public/TempletonResumeAugust2023.pdf">Resume</a></li>
+    <li><a href="documents.html">Documents</a></li>
+</ul> 
+<h2>Projects</h2>
+<body>
+
+
+    <div class="row">
+        <div class="column">
+            <div class="gallery">
+                <a href="3.309-project.html">
+                    <img src="public\articles\Block.png" alt="309 Project" width="80%">
+                </a>
+                <div class="desc">309 Project</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="gallery">
+                <a href="4.mini-feistel.html">
+                    <img src="public\articles\mini_block.PNG" alt="Mini-Feistel" width="80%">
+                </a>
+                <div class="desc">Mini-Feistel</div>
+            </div>
+            
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="gallery">
+                <a href="2.infix2postfix.html">
+                    <img src="public\articles\Infix2Postfix.png" alt="309 Project" width="500" height="500">
+                </a>
+                <div class="desc">228 Project</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="gallery">
+                <a href="7.senior.html">
+                    <img src="public\helics.png" alt="Senior Project" width="500" height="500">
+                </a>
+                <div class="desc">Senior Project</div>
+            </div>
+            
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="gallery">
+                <a href="1.381-project.html">
+                    <img src="public\articles\multi-381.webp" alt="381 Project" width="80%">
+                </a>
+                <div class="desc">381 Project</div>
+            </div>
+        </div>
+        <div class="column">
+        </div>
+    </div>
+    <br>
+    <h2>Hobbies</h2>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="gallery">
+                <a href="6.photo-album.html">
+                    <img src="public\articles\photo-album\17.JPG" alt="Photo Album" width="80%">
+                </a>
+                <div class="desc">Photo Album</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="gallery">
+                <a href="5.cardinal-eats.html">
+                    <img src="public\articles\cardinaleats2.png" alt="Cardinal Eats" width="80%">
+                </a>
+                <div class="desc">Cardinal Eats</div>
+            </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+</body>
+
+<footer>
+    <ul style="margin: 0 auto; display: table; text-align: left; font-size:calc(10px + .7vw);">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="public/TempletonResumeAugust2023.pdf">Resume</a></li>
+        <li><a href="documents.html">Documents</a></li>
+    </ul> 
+    <a style="font-size:calc(12px + .5vw)" href="mailto:jstemps02@gmail.com">jstemps02@gmail.com</a>
+    <br><br>
+    <ul style="margin: 0 auto; display: table; text-align: center; font-size:calc(10px + .7vw);">
+        <li>
+            <a style="padding: 15px;" href="https://www.github.com/jstemps">
+                <img src="public\giit.png" alt="GitHub" width="40px">
+            </a>
+        </li>
+        <li>
+            <a style="padding: 15px;" href="https://www.linkedin.com/in/justin-templeton/">
+                <img src="public\in.png" alt="LinkedIn" width="40px">
+            </a>
+        </li>
+    </ul>
+    
+    
+</footer>
+</html>
+
+
